@@ -1,0 +1,9 @@
+@import "./data";
+
+@function perftest-native($data) {
+  // just return the value
+  @return $data;
+}
+
+$data2: perftest-native($data);
+
